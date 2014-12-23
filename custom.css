@@ -12,7 +12,15 @@ body {
 }
 
 #myform {
-  width: 300px;
+  width: 200px;
   position: relative;  
   margin: auto;
+}
+
+input {
+  padding: 0 20px 0 0;
+}
+
+#oyy3 {
+  margin-left: 49px;
 }
