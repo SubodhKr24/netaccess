@@ -1,9 +1,7 @@
-function alert(e) {
-  var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
-  console.log(username);
-  console.log(password);
-}
-
-var button = document.querySelector(".submit"); 
-button.addEventListener('click', alert);
+document.addEventListener('DOMContentLoaded', function() {
+  console.log("document content loaded.");
+  var button = document.getElementById("oyy3");
+  button.addEventListener('click', function() {
+    console.log("the button is clicked.");
+  });
+});
