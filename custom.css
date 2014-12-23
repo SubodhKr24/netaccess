@@ -1,5 +1,18 @@
 body {
-  min-width: 357px;
+  min-width: 400px;
   overflow-x: hidden;
+  margin: auto;
+  background-color:rgb(225,225,225);
+}
+
+.main_div {
+  height: 100%;
+  width: 100%;
+  margin: 5px;
+}
+
+#myform {
+  width: 300px;
+  position: relative;  
   margin: auto;
 }
