@@ -3,7 +3,15 @@
 
   "name": "Netaccess Authenticator",
   "description": "This extension will be used to authenticate netaccess in IITM.",
-  "version": "0.0.2",
+  "version": "1.0",
+  "content_scripts": [
+      {
+        "matches" : ["https://*/* "],
+        "css": ["custom.css"],
+        "js" : ["alert.js","test.js"]
+      }
+    ],
+
   "permissions": [
     "https://netaccess.iitm.ac.in/account/login"
     ],
